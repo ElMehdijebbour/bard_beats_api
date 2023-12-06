@@ -6,6 +6,8 @@ from typing import List
 from functions import *
 import random
 
+
+
 app = FastAPI()
 
 class RecommendationRequest(BaseModel):
